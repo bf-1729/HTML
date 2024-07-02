@@ -1,0 +1,27 @@
+<html>
+<body>
+	<button onclick = "p()">push</button>
+	<input type = "text"></input>
+	<script>
+	function p(){
+	// JavaScript code to take input from the user,
+// using the prompt function, with a display message.
+	
+	var Passed = [1,5,8,16];
+	const userInput = prompt("Please enter your name:");
+	for(var i = 0;i<Passed.length;i++){
+	if(userInput == Passed[i]){
+		window.alert("Passed");
+		}const User = prompt("Please enter a value");
+		if(User > 80){
+			window.alert("Amazing");
+			}
+	else{
+		window.alert("Failed");
+	}
+	}
+	}
+	</script>
+	<p id = "demo"></p>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<html>
+
+<body>
+	<form>
+		<table>
+			<tr><td>Name:</td>
+			<td><input type = "text" placeholder = "Enter name" width = "400px"></td>
+			</tr>
+			
+			<tr><td>Email ID:</td>
+			<td><input type = "text" placeholder = "Enter email id"></td>
+			</tr>
+			
+			<tr><td>Phone No:</td>
+			<td><input type = "text" placeholder = "Enter Phone number"></td>
+			</tr>
+			<tr><td>Qualification:</td>
+			<td><select placeholder = "choose">
+				<option>choose</option>
+				<option>SSC</option>
+				<option>Intermediate/Diploma</option>
+				<option>B.E/B.Tech</option>
+				<option>M.E/M.Tech</option>
+				</select></td>
+			</tr>
+			
+			<tr>
+			<td>Score
+			</td>
+			<td><input type = "text" placeholder = "Enter your score">
+			</td>
+			<td><select>
+				<option>Marks</option>
+				<option>GPA</option>
+				<option>%</option>
+				</select></td>
+			</tr>
+			
+			
+			<tr>
+			<td><button>
+			submit</button></td></tr>
+		</table>
+	</form>
+
+</body>
+</html>
